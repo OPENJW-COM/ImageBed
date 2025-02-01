@@ -23,15 +23,15 @@ appsettings.json中配置api的域名(需要提前购买解析好)，数据库�
 3.前端编译部署  
 图床/imgbed-frontend为前端项目 react+nextjs开发，先下载node.js安装  
 命令行 执行npm install 会自动安装依赖包  
-项目根目录下.env 文件中配置API域名和你的网站名称,注意域名后以/结束，否则会请求时404
+项目根目录下.env 文件中配置API域名和你的网站名称,注意域名后以/结束，否则会请求时404  
 执行命令 npm run build编译前端静态文件  
 编译后会出现在out目录中   
 宝塔网站中添加PHP项目，php版本选择纯静态，配置域名（先进行解析）    
-进入项目文件夹，把编译后out目录中文件替换上去
+进入项目文件夹，把编译后out目录中文件替换上去  
 
-部署成功后访问前端域名可测试各项功能
+部署成功后访问前端域名可测试各项功能  
 
-部署中各项问题联系解决
-技术支持QQ:3968589563
-邮箱：service@openjw.com
-Telegram：@OPENJW
+部署中各项问题联系解决  
+技术支持QQ:3968589563  
+邮箱：service@openjw.com  
+Telegram：@OPENJW  
