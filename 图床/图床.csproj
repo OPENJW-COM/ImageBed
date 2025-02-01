@@ -7,10 +7,59 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\图床.deps.json" />
+    <Content Include="bin\Debug\net6.0\图床.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\BouncyCastle.Cryptography.dll" />
+    <None Include="bin\Debug\net6.0\Google.Protobuf.dll" />
+    <None Include="bin\Debug\net6.0\K4os.Compression.LZ4.dll" />
+    <None Include="bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll" />
+    <None Include="bin\Debug\net6.0\K4os.Hash.xxHash.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net6.0\MySql.Data.dll" />
+    <None Include="bin\Debug\net6.0\Newtonsoft.Json.Bson.dll" />
+    <None Include="bin\Debug\net6.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll" />
+    <None Include="bin\Debug\net6.0\System.IO.Pipelines.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\net6.0\System.Text.Encoding.CodePages.dll" />
+    <None Include="bin\Debug\net6.0\System.Text.Encodings.Web.dll" />
+    <None Include="bin\Debug\net6.0\System.Text.Json.dll" />
+    <None Include="bin\Debug\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net6.0\ZstdSharp.dll" />
+    <None Include="bin\Debug\net6.0\图床.dll" />
+    <None Include="bin\Debug\net6.0\图床.exe" />
+    <None Include="bin\Debug\net6.0\图床.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.33" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0\files\" />
   </ItemGroup>
 
 </Project>
